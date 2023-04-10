@@ -10,7 +10,7 @@ class Player {
     this.height = height;
     this.image = loadImage("./assets/player.png");
 
-      World.add(world, this.body);
+    World.add(world, this.body);
   }
 
  
